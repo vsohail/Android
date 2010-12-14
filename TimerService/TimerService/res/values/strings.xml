@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Launcher!</string>
+    <string name="app_name">TimerService</string>
+	<string name="service_started">Service is Started, this service notify every 1 minute, ganbatte voo :)</string>
+	<string name="service_label">This is Testing For Notifications</string>
+</resources>
