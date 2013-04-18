@@ -35,7 +35,7 @@ public class SimpleNotification extends Activity {
         	public void onClick(View v) {
         		
         		
-        		Context context = getApplicationContext();
+        		Context context = SimpleNotification.this();
         		CharSequence contentTitle = "Notification Details...";
         		CharSequence contentText = "Browse Android Official Site by clicking me";
         		Intent notifyIntent = new Intent(android.content.Intent.ACTION_VIEW,Uri.parse("http://www.android.com"));
